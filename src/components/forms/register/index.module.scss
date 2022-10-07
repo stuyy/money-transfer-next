@@ -1,0 +1,29 @@
+.form {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nameContainer {
+  display: flex;
+  gap: 8px;
+}
+
+.button {
+  background-color: #272727;
+  font-size: 0.9rem;
+  padding: 20px 0;
+  width: 100%;
+  font-family: 'Inter';
+  outline: none;
+  border: none;
+  color: #bebebe;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 300ms background-color ease;
+  &:hover {
+    background-color: #323232;
+  }
+}
