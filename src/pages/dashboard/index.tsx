@@ -3,7 +3,11 @@ import { DashboardLayout } from '../../components/layouts/DashboardLayout';
 import { NextPageWithLayout } from '../../types';
 
 const DashboardPage: NextPageWithLayout = () => {
-  return <div>dashboard</div>;
+  return (
+    <>
+      <div>dashboard</div>
+    </>
+  );
 };
 
 DashboardPage.getLayout = function getLayout(page: ReactElement) {

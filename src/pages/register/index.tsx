@@ -3,7 +3,7 @@ import { RegisterForm } from '../../components/forms/register/RegisterForm';
 
 const RegisterPage: NextPage = () => {
   return (
-    <div className="page">
+    <div className="pageFlex">
       <RegisterForm />
     </div>
   );
