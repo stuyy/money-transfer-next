@@ -1,5 +1,5 @@
 import { FC, PropsWithChildren } from 'react';
-import { NavigationSidebar } from '../sidebars/NavigationSidebar';
+import { NavigationSidebar } from '../sidebars/navigation/NavigationSidebar';
 import styles from './index.module.scss';
 
 export const DashboardLayout: FC<PropsWithChildren> = ({ children }) => (

@@ -1,0 +1,12 @@
+.nav {
+  flex: 0 0 100px;
+  border-right: 1px solid #5454542a;
+  padding-top: 64px;
+}
+
+.navItemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
