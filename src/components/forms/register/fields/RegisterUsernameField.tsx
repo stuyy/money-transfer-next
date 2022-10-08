@@ -22,8 +22,8 @@ export const RegisterUsernameField: FC<Props> = ({ register, error }) => (
       {...register('username', {
         required: 'Required',
         maxLength: {
-          value: 32,
-          message: '32 Characters Max',
+          value: 16,
+          message: '16 Characters Max',
         },
         minLength: {
           value: 3,
